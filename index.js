@@ -4,7 +4,7 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 const multer = require("multer");
 
-const port = 5000;
+const port = process.env.PORT || 5000;
 const app = express();
 
 app.use(cors({ origin: true, credentials: true }));
