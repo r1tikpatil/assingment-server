@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 mongoose.connect(
-  "mongodb+srv://ritikpatil:ritikpatil@cluster.ao7ly.mongodb.net/SE_Assingment"
+  ""
 );
 
 const db = mongoose.connection;
